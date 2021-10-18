@@ -54,8 +54,8 @@ Your users should be able to:
   <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-red?style=flat-square&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white" />
   
-  <img alt="TailwindCSS" src="https://img.shields.io/badge/-TailwindCSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=black" />
-  <img alt="Vite" src="https://img.shields.io/badge/-Vite-ffd32b?style=flat-square&logo=vite&logoColor=white" />
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/-TailwindCSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img alt="Vite" src="https://img.shields.io/badge/-Vite-ffd32b?style=flat-square&logo=vite&logoColor=black" />
 </p>
 <h3>What I Learnt</h3>
   <p>
