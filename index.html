@@ -6,12 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/c47db16e1a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/tailwind.css">
 
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 
 <body>
+  <div class="flex flex-col items-center text-center w-10/12 m-auto">
+    <section class="mt-20">
+      <img class="w-3/12 m-auto" src="/images/logo.svg" alt="ping">
+      <h1 class="mt-8 text-gray text-2xl">We are launching <span class="text-darkBlue font-bold">soon!</span>
+      </h1>
+      <p class="mt-3 text-sm font-bold text-darkBlue opacity-80">Subscribe and get notified</p>
+    </section>
+
+    <form>
+      <input class="rounded-full border-paleBlue border-2 placeholder-paleBlue w-full text-sm p-3 pl-10 mt-10"
+        type="email" placeholder="Your email address..." required />
+      <button
+        class="rounded-full bg-blue p-3 w-full text-white text-sm font-bold mt-2 shadow-md mb-16 hover:opacity-80">Notify
+        Me</button>
+    </form>
+
+    <div>
+      <img src="images/illustration-dashboard.png" alt="">
+    </div>
+
+    <footer class="mt-32">
+      <div class="flex justify-center gap-3 h-auto">
+        <div
+          class="p-1 border-2 rounded-full border-blue grid place-items-center w-10 text-blue cursor-pointer hover:text-white hover:bg-blue">
+          <i class="fab fa-facebook-f text-sm"></i>
+        </div>
+        <div
+          class="p-2 border-2 rounded-full border-blue grid place-items-center w-10 text-blue cursor-pointer hover:text-white hover:bg-blue">
+          <i class="fab fa-twitter text-sm"></i>
+
+        </div>
+        <div
+          class="p-1 border-2 rounded-full border-blue grid place-items-center w-10 text-blue cursor-pointer hover:text-white hover:bg-blue">
+          <i class="fab fa-instagram text-sm"></i>
+        </div>
+      </div>
+      <p class="text-sm text-gray mt-8 mb-8">© Copyright Ping. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
